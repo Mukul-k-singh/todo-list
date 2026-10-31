@@ -1,5 +1,4 @@
-import React from 'react';
-import { Star, Trash2, Calendar, Clock } from 'lucide-react';
+import { Star, Trash2, Clock } from 'lucide-react';
 import { format, isPast } from 'date-fns';
 
 const TodoItem = ({ todo, toggleComplete, toggleImportant, deleteTodo }) => {
